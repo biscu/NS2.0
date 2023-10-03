@@ -1,4 +1,4 @@
-let videoPlayer = document.getElementById("video");
+let video = document.getElementById("video");
 let pauseButton = document.getElementById("pauseButton");
 let volumeButton = document.getElementById("volumeButton");
 const image = document.getElementById("mediaIcon");
@@ -24,5 +24,5 @@ volumeButton.addEventListener("click", (e) => {
   }
 });
 
-videoPlayer.muted = true;
-videoPlayer.play();
+video.muted = true;
+video.play();
