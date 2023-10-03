@@ -24,6 +24,31 @@
   scroll-padding: 1rem;
 }
 
+.relative {
+  position: relative;
+}
+
+.media {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+}
+.media:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.volume {
+  position: absolute;
+  top: 56px;
+  right: 0;
+  padding: 1rem;
+}
+.volume:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
 .section-free {
   display: flex;
   gap: 0px;
@@ -37,6 +62,12 @@
   margin: 0 auto;
 }
 
+.section-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .section__item {
   --stop: normal;
   display: flex;
@@ -47,7 +78,6 @@
   scroll-snap-align: center;
   scroll-snap-stop: var(--stop);
   background-color: #ccc;
-  font-size: 1.5rem;
 }
 
 .teaser-image {
