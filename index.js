@@ -23,3 +23,6 @@ volumeButton.addEventListener("click", (e) => {
     imageVolume.src = "assets/sound-off.svg";
   }
 });
+
+videoPlayer.muted = true;
+videoPlayer.play();
