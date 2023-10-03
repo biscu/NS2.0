@@ -30,13 +30,15 @@
 .navbar {
   position: fixed;
   bottom: 0%;
-  height: 80px;
+  height: 108px;
   background-color: #f7f7f7;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2rem;
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 9999;
 }
 
 /* Other styles */
@@ -46,7 +48,6 @@ body {
   margin: 0;
   padding: 0;
   font-size: 100%;
-  overflow: hidden; /* Hide scrollbars */
 }
 .section::-webkit-scrollbar {
   display: none !important;
