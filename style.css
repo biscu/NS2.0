@@ -69,6 +69,7 @@
   height: 85%;
   background-color: #f7f7f7;
   opacity: 0;
+  z-index: 9999;
 }
 
 .section-video {
