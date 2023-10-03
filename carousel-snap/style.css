@@ -32,12 +32,12 @@
   bottom: 0;
   left: 0;
   right: 0;
-  height: 108px;
+  padding: 1rem 0 1rem 0;
   background-color: #f7f7f7;
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   font-size: 3rem;
   font-family: Arial, Helvetica, sans-serif;
   z-index: 9999;
@@ -49,7 +49,7 @@ body {
   background-color: #f7f7f7;
   margin: 0;
   padding: 0;
-  font-size: 100%;
+  font-size: 16px; /* Sets the base font size to 16px */
 }
 .section::-webkit-scrollbar {
   display: none !important;
